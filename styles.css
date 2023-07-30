@@ -1,0 +1,158 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #111;
+    font-family: Arial, Helvetica, sans-serif;
+    overflow-x: hidden;
+}
+/* banner */
+.banner{
+    width: 100%;
+    height: 448px;
+    color: white;
+    background-image: url('./netflix-images/banner.jpg');
+    background-position: center center;
+    background-size: cover;
+    object-fit: contain;
+}
+.title{
+    font-size: 3rem;
+    font-weight: 800;
+    padding-bottom: 0.3rem;
+}
+.desc{
+    padding-top: 1rem;
+    line-height: 1.3;
+    font-size: 0.8rem;
+    max-width: 360px;
+    margin-top: -5px;
+}
+.logo{
+    width: 100px;
+    position: absolute;
+    left: 10px;
+    top:20px
+
+}
+
+.avatar{
+    position: absolute;
+    width: 25px;
+    right: 10px;
+    top:20px
+}
+
+.banner-img{
+    width: 100%;
+    height: 100%;
+}
+
+.banner-word{
+    height: 150px;
+    position: absolute;
+    top: 140px;
+    margin-left: 10px;
+}
+
+.btn-outer{
+    width: 100%;
+    height: 35px;
+    margin-top: 5px;
+    
+}
+
+.btn{
+    border: none;
+    outline: none;
+    border-radius: 3px;
+    color: white;
+    font-weight: 700;
+    width: 90px;
+    height: 30px;
+    cursor: pointer;
+    background-color: rgba(51, 51, 51,0.5);
+
+}
+.btn:hover{
+    color: #111;
+    background-color: #e6e6e6;
+    transition: all 0.3s;
+}
+
+/* banner */
+
+/* movie */
+.movie-box{
+    color: white;
+    margin-left: 10px;
+}
+
+.row{
+    display: flex;
+    overflow-x: scroll;
+    padding: 20px;
+}
+
+.lg-images{
+    width: 150px;
+    height: 230px;
+    margin-right: 5px;
+    margin-top: 5px;
+    transition: transform 450ms;
+
+}
+.sm-images{
+    width: 200px;
+    height: 120px;
+    margin-right: 5px;
+    transition: transform 450ms;
+}
+
+.lg-images:hover{
+    transform: scale(1.1);
+}
+.sm-images:hover{
+    transform: scale(1.08);
+}
+
+.row::-webkit-scrollbar{
+    display: none;
+}
+
+.banner-fade{
+    width: 100%;
+    position: absolute;
+    margin-top: -90px;
+    height: 7.4rem;
+    background-image: linear-gradient(180deg, transparent, rgba(37,37,37,0.61),#111);
+} 
+.net{
+    position: absolute;
+    margin-top:-20px;
+}
+
+.row-1{
+    margin-top: 20px;
+}
+.nav{
+    border: 1px solid greenyellow;
+    position: fixed;
+    width: 100%;
+    top:0;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 20px;
+    z-index: 1;
+    transition-timing-function: ease-in;
+    transition: all 0.5s;
+    
+    
+}
+
+.nav_black{
+    background-color: #111;
+}
+/* movie */
